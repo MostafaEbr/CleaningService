@@ -1,0 +1,45 @@
+name: matrixtask
+description: A new Flutter application.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.0
+  http: ^0.12.2
+  flutter_otp: ^0.3.2
+  sms_autofill: ^1.2.6
+  flutter_sms: ^2.1.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  uses-material-design: true
+
+
+  assets:
+    - images/
+
+
+
+
+  fonts:
+    - family: Tajawal MB
+      fonts:
+        - asset: fonts/Tajawal-Light.ttf
+
+
+
